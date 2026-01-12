@@ -1,0 +1,58 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.activity {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.activity h2 {
+    color: #333;
+}
+
+.activity p {
+    color: #666;
+}
+
+.activity ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity li {
+    margin-bottom: 10px;
+}
+
+.activity li:before {
+    content: "\2022";  /* Bullet point */
+    color: #007bff;    /* Bullet point color */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.activity li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.activity li a:hover {
+    text-decoration: underline;
+}
